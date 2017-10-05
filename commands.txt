@@ -1,0 +1,6 @@
+first add public key to your github account then clone the repository
+
+#to clone the repository
+git clone git@github.com:ptmungali/understandinggithub.git
+
+
