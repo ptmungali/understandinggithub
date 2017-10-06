@@ -24,3 +24,12 @@ unstage a file while retaining changes in working directory
 #git status       //you will see commands.txt is unstaged from staging area
 #git add .
 #git commit -m "added about diff command and reset command"     //commit changes
+
+making changes to git file from github and have already added and commited some content form git now trying to push the commit from git to github it will ask to first pull the changes from github to git then push the changes from git to github. but while pulling merge conflict will occur. (commiting the changes from github)
+#git pull origin master        //pull changes from github
+resolved merge conflict
+commit the changes
+#git add .
+#git commit -m "merged with github"
+push the code to github
+#git push origin master
