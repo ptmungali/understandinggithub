@@ -3,4 +3,5 @@ first add public key to your github account then clone the repository
 #to clone the repository
 git clone git@github.com:ptmungali/understandinggithub.git
 
+#making changes to git file from github and have already added and commited some content form git now trying to push the commit from git to github it will ask to first pull the changes from github to git then push the changes from git to github. but while pulling merge conflict will occur. (commiting the changes from github)
 
