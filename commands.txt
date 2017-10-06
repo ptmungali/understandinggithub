@@ -1,6 +1,26 @@
 first add public key to your github account then clone the repository
 
-#to clone the repository
-git clone git@github.com:ptmungali/understandinggithub.git
+to clone the repository
+#git clone git@github.com:ptmungali/understandinggithub.git
 
+adding new content to file from git and then use diff to know what is changed but not staged.
+#git diff          //will tell what is changed in project but not staged.
 
+see if any file is changed
+#git status         //under changes not staged for commit you will see all the files which have been changed but not staged.
+stage the changes
+#git add .         //will add all the changed file to staging area
+see if all the files have been staged
+#git status       //under changes to be committed you will see files which have been added to staging area.
+see what changes have been staged but yet not committed
+#git diff --staged
+add all changed to staging area
+#git add .
+
+unstage a file while retaining changes in working directory
+#git add .
+#git status      //to see all the files which are in staging area
+#git reset commands.txt        //to unstage a file
+#git status       //you will see commands.txt is unstaged from staging area
+#git add .
+#git commit -m "added about diff command and reset command"     //commit changes
