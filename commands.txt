@@ -56,7 +56,13 @@ already added some commands in puneet branch ...on writing this changes will be 
 #git checkout master         //checkout master branch
 #git add .
 #git commit -m "new changes to masters command file"
-#git merge puneet            //merge puneet branch with master
+#git merge puneet            //merge puneet branch with master   git merge [alias]/[branch]
 resolved merge conflict and new content being added
 #git add .
 #git commit -m "merged two branches"
+#git push origin master               //push the code to github   git push [alias] [branch]
+
+
+comparing two branches
+#git diff master...puneet              //git diff branchb...brancha
+
