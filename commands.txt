@@ -35,7 +35,28 @@ push the code to github
 #git push origin master
 
 
+adding new branch
+#git branch         //to view all the branches
+#git branch puneet   //add new branch
+#git checkout puneet  //to use this new branch
+#git add .
+#git commit -m "created new branch"
+#git push origin puneet   //pushing changes to puneet branch  ..changed this line after pushing the code
+
+compare what changes have been done in local after pushing the code to github
+#git diff puneet origin/puneet
+
+to remove all the changes...clear staging area rewrite working tree from specific commit
+#git reset --hard [commit]
+#git add .
+#git commit -m "added reset command"
+
+
 already added some commands in puneet branch ...on writing this changes will be done to master branch so on merging puneet with master merge conflict will occur
 #git checkout master         //checkout master branch
 #git add .
 #git commit -m "new changes to masters command file"
+#git merge puneet            //merge puneet branch with master
+resolved merge conflict and new content being added
+#git add .
+#git commit -m "merged two branches"
