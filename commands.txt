@@ -40,4 +40,7 @@ adding new branch
 #git checkout puneet  //to use this new branch
 #git add .
 #git commit -m "created new branch"
-#git push origin puneet   //pushing changes to puneet branch
+#git push origin puneet   //pushing changes to puneet branch  ..changed this line after pushing the code
+
+compare what changes have been done in local after pushing the code to github
+#git diff puneet origin/puneet
