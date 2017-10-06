@@ -66,3 +66,8 @@ resolved merge conflict and new content being added
 comparing two branches
 #git diff master...puneet              //git diff branchb...brancha
 
+
+comparing the number of commits in 2 branches
+#git log master...puneet
+#git add .
+#git commit -m "comparing commits for 2 branches"
