@@ -44,3 +44,9 @@ adding new branch
 
 compare what changes have been done in local after pushing the code to github
 #git diff puneet origin/puneet
+
+to remove all the changes...clear staging area rewrite working tree from specific commit
+#git reset --hard [commit]
+#git add .
+#git commit -m "added reset command"
+
