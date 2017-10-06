@@ -33,3 +33,11 @@ commit the changes
 #git commit -m "merged with github"
 push the code to github
 #git push origin master
+
+adding new branch
+#git branch         //to view all the branches
+#git branch puneet   //add new branch
+#git checkout puneet  //to use this new branch
+#git add .
+#git commit -m "created new branch"
+#git push origin master
