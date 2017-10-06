@@ -79,3 +79,8 @@ added a new file to the repository
 #git status
 #git add .
 #git commit -m "remove new file"
+
+add new remote to github
+#git add .
+#git commit -m "adding new remote"
+#git remote add neworigin git@github.com:ptmungali/understandinggithub.git            //git remote add newromote url
