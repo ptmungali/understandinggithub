@@ -64,10 +64,16 @@ resolved merge conflict and new content being added
 
 
 comparing two branches
-#git diff master...puneet              //git diff branchb...brancha
+#git diff master...puneet              //git diff branchb...brancha        ..show the diff of what is in branchA that is not in branchB
 
 
 comparing the number of commits in 2 branches
 #git log master...puneet
 #git add .
 #git commit -m "comparing commits for 2 branches"
+
+added a new file to the repository
+#git add .
+#git commit -m "added new file"
+#git rm tempfile.txt                     //remove the file and stage the removal for commit
+#git status
