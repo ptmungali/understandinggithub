@@ -33,3 +33,9 @@ commit the changes
 #git commit -m "merged with github"
 push the code to github
 #git push origin master
+
+
+already added some commands in puneet branch ...on writing this changes will be done to master branch so on merging puneet with master merge conflict will occur
+#git checkout master         //checkout master branch
+#git add .
+#git commit -m "new changes to masters command file"
